@@ -5,8 +5,8 @@ import Navbar from "@/Shared/Navbar";
 function Home() {
   const cvdwn = () => {
     const link = document.createElement("a");
-    link.href = "/Designer-removebg-preview.png";
-    link.download = "CV.png";
+    link.href = "/public/Vishal Sharma.pdf";
+    link.download = "resume.pdf";
     link.click();
   };
 
