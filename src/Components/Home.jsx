@@ -5,7 +5,7 @@ import Navbar from "@/Shared/Navbar";
 function Home() {
   const cvdwn = () => {
     const link = document.createElement("a");
-    link.href = "/Vishal Sharma.pdf";
+    link.href = "/Vishal_Sharma.pdf";
     link.download = "resume.pdf";
     link.click();
   };
