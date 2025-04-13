@@ -32,7 +32,7 @@ function Home() {
               </span>
               <>
                 <span className="px-2 font-bold text-pink-500">
-                Software Developer Crafting Innovative Solutions.
+                Software Developer.
                 </span>
               </>
             </h1>

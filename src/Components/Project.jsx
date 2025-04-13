@@ -19,16 +19,18 @@ function Project() {
             <h1 className="font-WorkSansRegular flex flex-col text-gray-500 text-3xl lg:text-6xl font-semibold leading-tight">
               <span>
                 I have successfully
-                <span className="px-2 text-pink-500 font-bold">developed</span>
-                And
+                <span className="px-2 text-pink-500 font-bold">developed and deployed</span>
+                full-stack web applications using the
               </span>
-              <>
+              <span>
                 <span className="px-2 font-bold text-pink-500">
-                  deployed full-stack projects
+                MERN stack.
                 </span>
-              </>
+              </span>
             </h1>
           </div>
+
+          
 
           <svg
             width="50"
