@@ -13,9 +13,8 @@ function Home() {
   return (
     <>
       <Navbar />
-
       <div
-        className="flex flex-col items-start p-8 min-h-screen bg-opacity-80 "
+        className="flex flex-col items-start p-8 min-h-screen bg-opacity-80 bg-white "
         style={{
           backgroundImage: "url('/Designer-removebg-preview.png')",
           backgroundRepeat: "no-repeat",
@@ -23,25 +22,34 @@ function Home() {
           backgroundSize: "contain",
         }}
       >
-        <div className="text-left">
-          <b className="text-red-500 text-7xl hover:text-pink-500 ">Hi! I'M </b>
-          <br />
-          <b className="text-cyan-500 text-6xl ">Vishal Sharma</b>
-          <br />
-          <pre className="text-pink-500 text-2xl mt-4 whitespace-pre-wrap font-semibold ">
-            {`I am a 21-year-old graduate with a Bachelor of Computer Applications (BCA), passionate about cutting-edge technologies and equipped with a strong foundation in core areas of computer science.
+        <div className="h-screen w-full flex justify-center flex-col items-center">
+          <div className=" px-4 h-full flex justify-center flex-col items-center text-center">
+            <h1 className="font-WorkSansRegular flex flex-col text-gray-500 text-4xl lg:text-6xl font-semibold leading-tight">
+              <span>
+              Hello! I'M 
+                <span className="px-2 text-pink-500 font-bold">Vishal Sharma,</span>
+                a Passionate
+              </span>
+              <>
+                <span className="px-2 font-bold text-pink-500">
+                Software Developer Crafting Innovative Solutions.
+                </span>
+              </>
+            </h1>
+          </div>
+        </div>
+        <div className="text-center flex flex-col items-center justify-center h-full">
+  <p className="text-gray-500 text-2xl lg:text-3xl font-WorkSansRegular font-semibold leading-relaxed">
+    I am a <span className="text-pink-500 font-bold">21-year-old graduate</span> with a Bachelor of Computer Applications (BCA), passionate about cutting-edge technologies and equipped with a strong foundation in core areas of computer science.
+  </p>
+  <p className="text-gray-500 text-2xl lg:text-3xl font-WorkSansRegular font-semibold leading-relaxed mt-4">
+    <span className="text-pink-500 font-bold">Languages:</span> JavaScript, Python
+  </p>
+  <p className="text-gray-500 text-2xl lg:text-3xl font-WorkSansRegular font-semibold leading-relaxed mt-2">
+    <span className="text-pink-500 font-bold">Web Development:</span> Skilled in MERN Stack (MongoDB, Express.js, React.js, Node.js)
+  </p>
+  <div/>
 
-Languages:JavaScript, Python 
-Web Development: Skilled in MERN Stack (MongoDB, Express.js, React.js, Node.js)
-
-I have successfully developed and deployed full-stack projects, built using the MERN stack (MongoDB, Express.js, React.js, Node.js), including:
-
-Job Portal – A dynamic platform that seamlessly connects job seekers with potential employers, featuring job listings, role-based logins, and application management.
-
-Learning Management System (LMS) – A comprehensive solution for managing educational content, tracking user progress, and providing interactive features like course creation, quizzes, and real-time updates.
-
-URL Shortener – An innovative and efficient tool for shortening long URLs, allowing users to create concise, trackable links.`}
-          </pre>
           <div className="flex mt-4 space-x-8 text-5xl">
             <a href="#" className="text-blue-600 hover:opacity-75">
               <i className="fab fa-linkedin"></i>
@@ -96,9 +104,10 @@ URL Shortener – An innovative and efficient tool for shortening long URLs, all
             </svg>
           </button>
         </div>
+        <div/>
       </div>
 
-      <div className="px-4 py-10  min-h-screen">
+      <div className="px-4 py-10  min-h-screen bg-white">
         <div className="max-w-6xl mx-auto grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {/* Card 1 */}
           <div className="rounded-md shadow-md bg-[#511cac] text-white overflow-hidden">

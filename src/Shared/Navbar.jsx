@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className=" flex items-center justify-between mx-auto max-w-7xl h-16">
+      <div className=" flex items-center justify-between mx-auto max-w-7xl h-16 backdrop-blur-md bg-white/50 sticky top-0 z-50">
         <div>
           <Link to={"/"}>
             <h1 className="text-2xl font-bold cursor-pointer">

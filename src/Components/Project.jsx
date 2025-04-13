@@ -1,14 +1,55 @@
 import Footer from "@/Shared/Footer";
 import Navbar from "@/Shared/Navbar";
-import React, { useState } from "react";
 
 function Project() {
-  const [darkMode, setDarkMode] = useState(false);
-
   return (
     <>
       <Navbar />
-      <div className="px-4 py-10  min-h-screen">
+      <div
+        className="flex flex-col items-start p-8 min-h-screen bg-white overflow-x-hidden"
+        style={{
+          backgroundImage: "url('/Designer-removebg-preview.png')",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "right center",
+          backgroundSize: "contain",
+        }}
+      >
+        <div className="h-screen w-full flex justify-center flex-col items-center">
+          <div className="px-3 h-full flex justify-center flex-col items-center text-center">
+            <h1 className="font-WorkSansRegular flex flex-col text-gray-500 text-3xl lg:text-6xl font-semibold leading-tight">
+              <span>
+                I have successfully
+                <span className="px-2 text-pink-500 font-bold">developed</span>
+                And
+              </span>
+              <>
+                <span className="px-2 font-bold text-pink-500">
+                  deployed full-stack projects
+                </span>
+              </>
+            </h1>
+          </div>
+
+          <svg
+            width="50"
+            height="20"
+            viewBox="0 0 24 14"
+            fill="none"
+            className="mb-20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2 2L12 12L22 2"
+              stroke="#000000"
+              strokeWidth="2.67"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div className="px-4 py-10  min-h-screen bg-white">
         <div className="max-w-6xl mx-auto grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {/* Card 1 */}
           <div className="rounded-md shadow-md bg-[#511cac] text-white overflow-hidden">
