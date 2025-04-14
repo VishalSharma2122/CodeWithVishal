@@ -1,18 +1,10 @@
-import Footer from "@/Shared/Footer";
-import Navbar from "@/Shared/Navbar";
+import React from "react";
 
 function Project() {
   return (
     <>
-      <Navbar />
       <div
         className="flex flex-col items-start p-8 min-h-screen bg-white overflow-x-hidden"
-        style={{
-          backgroundImage: "url('/Designer-removebg-preview.png')",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "right center",
-          backgroundSize: "contain",
-        }}
       >
         <div className="h-screen w-full flex justify-center flex-col items-center">
           <div className="px-3 h-full flex justify-center flex-col items-center text-center">
@@ -129,7 +121,7 @@ function Project() {
           </div>
         </div>
       </div>
-      <Footer />
+  
     </>
   );
 }
