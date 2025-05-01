@@ -5,7 +5,7 @@ import About from "./About";
 function Home() {
   const cvdwn = () => {
     const link = document.createElement("a");
-    link.href = "/Vishal_Sharma.pdf";
+    link.href = "/Vishal Sharma.pdf";
     link.download = "resume.pdf";
     link.click();
   };
